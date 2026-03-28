@@ -31,15 +31,27 @@
         <td>{{ p[5] }}</td>
         <td>{{ p[6] }}</td>
         <td>
-            <!-- Green Check -->
-            <button class="btn btn-success">
-                <i class="bi bi-check-lg"></i>
-            </button>
+            <!-- Green Check (Win) -->
+            <form method="POST" action="{{ url_for('review') }}" style="display:inline;">
+                <input type="hidden" name="id" value="{{ p[0] }}">
+                <input type="hidden" name="status" value="Win">
+                <input type="hidden" name="odds" value="{{ p[5] }}">
+                <input type="hidden" name="amount" value="{{ p[6] }}">
+                <button class="btn btn-success">
+                    <i class="bi bi-check-lg"></i>
+                </button>
+            </form>
 
-            <!-- Red X -->
-            <button class="btn btn-danger">
-                <i class="bi bi-x-lg"></i>
-            </button>
+            <!-- Red X (Loss) -->
+            <form method="POST" action="{{ url_for('review') }}" style="display:inline;">
+                <input type="hidden" name="id" value="{{ p[0] }}">
+                <input type="hidden" name="status" value="Loss">
+                <input type="hidden" name="odds" value="{{ p[5] }}">
+                <input type="hidden" name="amount" value="{{ p[6] }}">
+                <button class="btn btn-danger">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </form>
         </td>
         <td>{{ p[8] }}</td>
     </tr>
