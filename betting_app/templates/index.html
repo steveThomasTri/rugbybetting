@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Leaderboard</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Total Bank</th>
+    </tr>
+    {% for p in players %}
+    <tr>
+        <td>
+            <a href="{{ url_for('player', id=p[0]) }}">
+                {{ p[1] }}
+            </a>
+        </td>
+        <td>${{ "%.2f"|format(p[4]) }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<a href="/add">Add Transaction</a>
+{% endblock %}
