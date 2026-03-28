@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Transactions</h2>
+
+<table class="table transaction-table">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>Market</th>
+        <th>Description</th>
+        <th>Odds</th>
+        <th>Bet</th>
+        <th>Result</th>
+        <th>Payout</th>
+    </tr>
+    {% for p in transactions %}
+
+    <tr class="table-info">
+
+        <td>
+            <a href="{{ url_for('player', id=p[0]) }}">
+                {{ p[0] }}
+            </a>
+        </td>
+        <td>{{ p[9] }}</td>
+        <td>{{ p[2] }}</td>
+        <td>{{ p[3] }}</td>
+        <td>{{ p[4] }}</td>
+        <td>{{ p[5] }}</td>
+        <td>{{ p[6] }}</td>
+        <td>
+            <!-- Green Check -->
+            <button class="btn btn-success">
+                <i class="bi bi-check-lg"></i>
+            </button>
+
+            <!-- Red X -->
+            <button class="btn btn-danger">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </td>
+        <td>{{ p[8] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

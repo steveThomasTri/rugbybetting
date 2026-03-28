@@ -12,9 +12,6 @@ def get_db(DB):
     except sqlite3.Error as e:
         print(f"Error opening database: {e}")
         return None
-    
-#if os.path.exists("betting.db"):
-    #db = get_db("betting.db")
 
 @app.route("/")
 def index():
@@ -48,13 +45,13 @@ def player(id):
 
 @app.route("/transactions")
 def transactions():
-    db = get_db()
+    db = get_db(DB)
     data = db.execute("""
         SELECT Transactions.*, Players.Name
         FROM Transactions
         JOIN Players ON Players.ID = Transactions.PlayerID
     """).fetchall()
-
+    print(data)
     return render_template("transactions.html", transactions=data)
 
 
@@ -86,7 +83,7 @@ def add_transaction():
 
 @app.route("/review", methods=["GET", "POST"])
 def review():
-    db = get_db()
+    db = get_db(DB)
 
     if request.method == "POST":
         t_id = request.form["id"]
