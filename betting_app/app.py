@@ -32,7 +32,6 @@ def index():
         ORDER BY total DESC
     """).fetchall()
     return render_template("index.html", players=totals)
-    #return "Hello World"
 
 
 @app.route("/player/<int:id>")
