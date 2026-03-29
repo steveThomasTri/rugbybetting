@@ -15,7 +15,7 @@
                 {{ p[1] }}
             </a>
         </td>
-        <td>${{ "%.2f"|format(p[4]) }}</td>
+        <td>$<span class="leaderboard-numbers">{{ "%.2f"|format(p[4]) }}</span></td>
     </tr>
     {% endfor %}
 </table>
