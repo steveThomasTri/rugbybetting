@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 import os
+import time
 
 app = Flask(__name__)
 DB = "betting.db"
@@ -51,32 +52,36 @@ def transactions():
         FROM Transactions
         JOIN Players ON Players.ID = Transactions.PlayerID
     """).fetchall()
-    print(data)
     return render_template("transactions.html", transactions=data)
 
 
 @app.route("/add", methods=["GET", "POST"])
 def add_transaction():
-    db = get_db()
-
+    db = get_db(DB)
     if request.method == "POST":
-        player_id = request.form["player_id"]
+        name = request.form["name"]
         team = request.form["team"]
         bettype = request.form["bettype"]
         description = request.form["description"]
         odds = int(request.form["odds"])
         amount = float(request.form["amount"])
-        status = request.form["status"]
+        status = "Pending"
+
+        cursor = db.execute("SELECT ID FROM Players WHERE Name = ?", (name,))
+        playerid = cursor.fetchone()
+        time.sleep(1)
+
+        print(playerid, name, team, bettype, description, odds, amount, status)
 
         db.execute("""
             INSERT INTO Transactions
             (PlayerID, Team, BetType, Description, Odds, AmountBet, Status, AmountWon)
             VALUES (?, ?, ?, ?, ?, ?, ?, 0)
-        """, (player_id, team, bettype, description, odds, amount, status))
+        """, (playerid[0], team, bettype, description, odds, amount, status))
 
         db.commit()
+        time.sleep(1)
         return redirect(url_for("transactions"))
-
     players = db.execute("SELECT * FROM Players").fetchall()
     return render_template("add_transaction.html", players=players)
 
@@ -120,10 +125,10 @@ def review():
 
     return render_template("review.html", transactions=pending)
 
-
+'''
 @app.route("/leaderboard")
 def leaderboard():
-    db = get_db()
+    db = get_db(DB)
     data = db.execute("""
         SELECT Players.Name, SUM(AmountWon) as total
         FROM Transactions
@@ -133,7 +138,7 @@ def leaderboard():
     """).fetchall()
 
     return render_template("leaderboard.html", players=data)
-
+'''
 
 if __name__ == "__main__":
     app.run(debug=True)

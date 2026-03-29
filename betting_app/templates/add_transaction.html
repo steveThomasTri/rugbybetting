@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add Transaction</h2>
+
+<form method="POST">
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
+        <div class="col-sm-10">
+            <select id="inputName" name="name" class="form-select">
+                <option selected>Who?...</option>
+                <option>BLAZE</option>
+                <option>ENZO</option>
+                <option>HAZ</option>
+                <option>HENKEL</option>
+                <option>TRIF</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Team</label>
+        <div class="col-sm-10">
+            <select name="team" class="form-select">
+                <option value="">Select Team</option>
+
+                <option value="BRONCOS">Brisbane Broncos</option>
+                <option value="RAIDERS">Canberra Raiders</option>
+                <option value="BULLDOGS">Canterbury-Bankstown Bulldogs</option>
+                <option value="SHARKS">Cronulla-Sutherland Sharks</option>
+                <option value="DOLPHINS">Dolphins</option>
+                <option value="DRAGONS">St. George Illawarra Dragons</option>
+                <option value="EELS">Parramatta Eels</option>
+                <option value="TITANS">Gold Coast Titans</option>
+                <option value="SEA EAGLES">Manly Warringah Sea Eagles</option>
+                <option value="STORM">Melbourne Storm</option>
+                <option value="KNIGHTS">Newcastle Knights</option>
+                <option value="WARRIORS">New Zealand Warriors</option>
+                <option value="COWBOYS">North Queensland Cowboys</option>
+                <option value="PANTHERS">Penrith Panthers</option>
+                <option value="RABBITOHS">South Sydney Rabbitohs</option>
+                <option value="ROOSTERS">Sydney Roosters</option>
+                <option value="TIGERS">Wests Tigers</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Bet Type</label>
+        <div class="col-sm-10">
+            <select name="bettype" class="form-select">
+                <option value="">Select Market</option>
+
+                <!-- Main Markets -->
+                <optgroup label="Main Markets">
+                    <option value="ML">Match Winner</option>
+                    <option value="SPREAD">Line (Handicap)</option>
+                    <option value="TOTAL_POINTS_OVER">Total Points Over</option>
+                    <option value="TOTAL_POINTS_UNDER">Total Points Under</option>
+                </optgroup>
+
+                <!-- Team Markets -->
+                <optgroup label="Team Markets">
+                    <option value="TEAM_TOTAL_OVER">Team Total Over</option>
+                    <option value="TEAM_TOTAL_UNDER">Team Total Under</option>
+                    <option value="TEAM_TO_SCORE_FIRST">Team to Score First</option>
+                    <option value="TEAM_TO_SCORE_LAST">Team to Score Last</option>
+                </optgroup>
+
+                <!-- Try Scorer Markets -->
+                <optgroup label="Try Scorer">
+                    <option value="ANYTIME_TRY_SCORER">Anytime Try Scorer</option>
+                    <option value="FIRST_TRY_SCORER">First Try Scorer</option>
+                    <option value="LAST_TRY_SCORER">Last Try Scorer</option>
+                    <option value="TWO_PLUS_TRIES">2+ Tries</option>
+                    <option value="HAT_TRICK">Hat Trick (3+ Tries)</option>
+                </optgroup>
+
+                <!-- Half Markets -->
+                <optgroup label="Half Markets">
+                    <option value="FIRST_HALF_WINNER">1st Half Winner</option>
+                    <option value="SECOND_HALF_WINNER">2nd Half Winner</option>
+                    <option value="FIRST_HALF_TOTAL_OVER">1st Half Total Over</option>
+                    <option value="FIRST_HALF_TOTAL_UNDER">1st Half Total Under</option>
+                </optgroup>
+
+                <!-- Game Specials -->
+                <optgroup label="Game Specials">
+                    <option value="WIN_MARGIN">Winning Margin</option>
+                    <option value="EXACT_SCORE">Correct Score</option>
+                    <option value="RACE_TO_POINTS">Race to X Points</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Description</label>
+        <div class="col-sm-10">
+            <input type="text" name="description" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Give a Description">
+        </div>
+    </div>
+
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Odds</label>
+        <div class="col-sm-10">
+            <input type="number" name="odds" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Odds">
+        </div>
+    </div>
+
+    <div class="row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Betting Amount</label>
+        <div class="col-sm-10">
+            <input type="text" name="amount" class="form-control form-control-lg" id="colFormLabelLg" placeholder="$">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">SUBMIT</button>
+</form>
+
+{% endblock %}
