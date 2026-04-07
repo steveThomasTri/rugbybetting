@@ -188,6 +188,7 @@
     document.querySelectorAll('.bet-card').forEach(card => {
 
         let unlockedIndex = 0; // each card gets its own state
+        let maxUnlocked = 0; // 🔥 tracks highest progress
         let locked = false; // 🔥 NEW
 
         const balls = card.querySelectorAll('.middle-img');
@@ -204,7 +205,11 @@
                 clickSound.currentTime = 0; // allows rapid clicks
                 clickSound.play();
 
-                animateCounter(counter, values[unlockedIndex], values[unlockedIndex + 1]);
+                // Only increase money if exceeding previous max
+                if (unlockedIndex >= maxUnlocked) {
+                    animateCounter(counter, values[unlockedIndex], values[unlockedIndex + 1]);
+                    maxUnlocked = unlockedIndex + 1;
+                }
 
                 // Turn this ball ON
                 this.classList.remove('opacity-on');
@@ -228,6 +233,15 @@
                 const counter = card.querySelector('.attempt-counter');
                 let current = parseInt(counter.textContent);
                 counter.textContent = current + 1;
+                
+                // 🔥 Reset balls
+                balls.forEach(b => {
+                    b.classList.remove('opacity-off');
+                    b.classList.add('opacity-on');
+                });
+
+                // 🔥 Reset sequence
+                unlockedIndex = 0;
 
                 if (parseInt(counter.textContent) >= 3){
                     locked = true
@@ -240,6 +254,36 @@
                 }
             })
         })
+    });
+    document.querySelectorAll('.cash-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+
+            const card = this.closest('.bet-card');
+            const id = this.dataset.id;
+
+            const counter = card.querySelector('.money-counter');
+            const amount = parseInt(counter.textContent.replace('$', ''));
+
+            fetch('/cashout', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    id: id,
+                    amount: amount
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+
+                // Optional UI feedback
+                this.innerText = "Cashed!";
+                this.disabled = true;
+            })
+            .catch(err => console.error(err));
+        });
     });
 </script>
 

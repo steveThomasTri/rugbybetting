@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 import sqlite3
 import os
 import time
@@ -132,6 +132,35 @@ def review():
 
     return render_template("review.html", transactions=pending)
 
+@app.route('/cashout', methods=["POST"])
+def cashout():
+    data = request.get_json()
+
+    t_id = data["id"]
+    amount = int(data['amount'])
+
+    # 🔥 Apply your rule
+    if amount in [50, 150]:
+        amount_to_add = 50
+    else:
+        amount_to_add = amount
+
+    print(t_id, amount_to_add)
+
+    db = get_db(DB)
+
+    db.execute("""
+        UPDATE Players
+        SET Bank = Bank + ?
+        WHERE ID = ?
+    """, (amount_to_add, t_id))
+
+    db.commit()
+
+    return jsonify({
+        "status": "success",
+        "added": amount_to_add
+    })
 '''
 @app.route("/leaderboard")
 def leaderboard():
