@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for p in players %}
+
+    <div class="card bet-card" style="height: 300px;">
+        <div class="d-flex flex-column h-100">
+
+            <!-- Section 1 (25%) -->
+            <div style="flex: 1;" class="bg-light align-items-center">
+                <div class="row">
+                    <div class="col-6">
+                    {{ p[1] }}
+                    </div>
+                    <div class="col-6">
+                    Attempts: 0
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 (50%) -->
+            <div style="flex: 2;" class="bg-secondary text-white d-flex align-items-center justify-content-center card-middle">
+                <img src="{{url_for('static', filename='basketball.png')}}"  class="middle-img opacity-on" data-index="0"/>
+                <img src="{{url_for('static', filename='basketball.png')}}"  class="middle-img opacity-on" data-index="1"/>
+                <img src="{{url_for('static', filename='basketball.png')}}"  class="middle-img opacity-on" data-index="2"/>
+                <img src="{{url_for('static', filename='basketball.png')}}"  class="middle-img opacity-on" data-index="3"/>
+                <img src="{{url_for('static', filename='basketball.png')}}"  class="middle-img opacity-on" data-index="4"/>
+            </div>
+
+            <!-- Section 3 (25%) -->
+            <div style="flex: 1;" class="bg-light d-flex align-items-center justify-content-center">
+                Section 3 (25%)
+            </div>
+
+        </div>
+    </div>
+
+    {% endfor %}
+
+{% endblock %}

@@ -31,6 +31,13 @@ def index():
     """).fetchall()
     return render_template("index.html", players=totals)
 
+@app.route("/basketball")
+def bball():
+    db = get_db(DB)
+    players = db.execute("SELECT * FROM Players").fetchall()
+    print(players)
+
+    return render_template("basketball.html", players=players)
 
 @app.route("/player/<int:id>")
 def player(id):
