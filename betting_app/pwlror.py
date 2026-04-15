@@ -1,6 +1,12 @@
 import argparse
-
 import requests
+import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv('API_KEY')
 
 
 # Obtain the api key that was passed in from the command line
@@ -11,7 +17,6 @@ args = parser.parse_args()
 
 # An api key is emailed to you when you sign up to a plan
 # Get a free API key at https://api.the-odds-api.com/
-API_KEY = args.api_key or '15d900cf56d1a89acf33a8c86f75325a'
 
 # Sport key
 # Find sport keys from the /sports endpoint below, or from https://the-odds-api.com/sports-odds-data/sports-apis.html
@@ -21,7 +26,7 @@ SPORT = 'rugbyleague_nrl'
 # Bookmaker regions
 # uk | us | us2 | eu | au. Multiple can be specified if comma delimited.
 # More info at https://the-odds-api.com/sports-odds-data/bookmaker-apis.html
-REGIONS = 'us'
+REGIONS = 'us,au'
 
 # Odds markets
 # More info at https://the-odds-api.com/sports-odds-data/betting-markets.html
@@ -54,26 +59,30 @@ if len(events_json) == 0:
 
 
 print(f'Found {len(events_json)} events. Querying the first event')
-print(events_json)
-first_event = events_json[0]
-first_event_id = first_event['id']
 
-odds_response = requests.get(f'https://api.the-odds-api.com/v4/sports/{SPORT}/events/{first_event_id}/odds', params={
-    'api_key': API_KEY,
-    'regions': REGIONS,
-    'markets': MARKETS,
-    'oddsFormat': ODDS_FORMAT,
-    'dateFormat': DATE_FORMAT,
-})
 
-if odds_response.status_code != 200:
-    print(f'Failed to get odds: status_code {odds_response.status_code}, response body {odds_response.text}')
+for event in events_json:
+    eventid = event['id']
 
-else:
-    odds_json = odds_response.json()
-    # pretty print odds response
-    print(json.dumps(odds_json, indent=2))
-    
-    # Check the usage quota
-    print('Total credits remaining', odds_response.headers['x-requests-remaining'])
-    print('Total credits used', odds_response.headers['x-requests-used'])
+    odds_response = requests.get(f'https://api.the-odds-api.com/v4/sports/{SPORT}/events/{eventid}/odds', params={
+        'api_key': API_KEY,
+        'regions': REGIONS,
+        'markets': MARKETS,
+        'oddsFormat': ODDS_FORMAT,
+        'dateFormat': DATE_FORMAT,
+    })
+
+    if odds_response.status_code != 200:
+        print(f'Failed to get odds: status_code {odds_response.status_code}, response body {odds_response.text}')
+
+    else:
+        odds_json = odds_response.json()
+        # pretty print odds response
+        #print(json.dumps(odds_json, indent=4))
+
+        with open(f"{eventid}.json", "w") as f:
+            json.dump(odds_json, f, indent=4)
+        
+        # Check the usage quota
+        print('Total credits remaining', odds_response.headers['x-requests-remaining'])
+        print('Total credits used', odds_response.headers['x-requests-used'])

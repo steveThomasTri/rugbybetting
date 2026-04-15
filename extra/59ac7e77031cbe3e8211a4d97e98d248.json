@@ -1,0 +1,3477 @@
+{
+    "id": "59ac7e77031cbe3e8211a4d97e98d248",
+    "sport_key": "rugbyleague_nrl",
+    "sport_title": "NRL",
+    "commence_time": "2026-04-18T05:00:00Z",
+    "home_team": "New Zealand Warriors",
+    "away_team": "Gold Coast Titans",
+    "bookmakers": [
+        {
+            "key": "sportsbet",
+            "title": "SportsBet",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:20Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -164
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": -104
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 125
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 155
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 245
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 270
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 390
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 460
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 460
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 675
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 115
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 130
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 215
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 260
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 280
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 525
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 675
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 725
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 825
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:20Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 3000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 4500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 4500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 5500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "betright",
+            "title": "Bet Right",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:16Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -217
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -154
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": -109
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 135
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 160
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 240
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 245
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 285
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 350
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 375
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 375
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 450
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 15000
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:16Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 850
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 1500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 1500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 1500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "tab",
+            "title": "TAB",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:46Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -182
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -182
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 115
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 115
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 115
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 115
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 130
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 140
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 160
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 190
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 325
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 325
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 350
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 375
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 450
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 750
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:46Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 15000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "pointsbetau",
+            "title": "PointsBet (AU)",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:11Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -167
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -143
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 125
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 130
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 140
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 190
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 240
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 270
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 320
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 450
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 850
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 1200
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:11Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 3000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 6000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 12500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "ladbrokes_au",
+            "title": "Ladbrokes",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:23:54Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -172
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -133
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": -102
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 130
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 145
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 155
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 235
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 260
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 260
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 290
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 290
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 310
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 350
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 460
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 525
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 540
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 540
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 560
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 625
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 675
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 950
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:23:54Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1050
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1150
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 100000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "neds",
+            "title": "Neds",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:23:58Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -172
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -133
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": -102
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 130
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 145
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 155
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 235
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 260
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 260
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 290
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 290
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 310
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 350
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 460
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 525
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 540
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 540
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 560
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 625
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 675
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 950
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:23:58Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 775
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1050
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1150
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 100000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "betr_au",
+            "title": "Betr",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:55Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -227
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -152
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": -111
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 137
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 162
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 175
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 220
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 240
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 450
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 10000
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:55Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 750
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 1800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 2800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 10000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "No Scorer",
+                            "price": 10000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 10000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "unibet",
+            "title": "Unibet",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:28Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 145
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -134
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -182
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 375
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 160
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 190
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 140
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 300
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:28Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 6000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 2500
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "tabtouch",
+            "title": "TABtouch",
+            "markets": [
+                {
+                    "key": "player_try_scorer_anytime",
+                    "last_update": "2026-04-15T13:24:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 145
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": -134
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": -182
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 550
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 375
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 275
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 110
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 210
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 170
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 250
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 900
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 950
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 160
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 190
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 225
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 120
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 800
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 140
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 300
+                        }
+                    ]
+                },
+                {
+                    "key": "player_try_scorer_first",
+                    "last_update": "2026-04-15T13:24:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Yes",
+                            "description": "Ali Leiataua",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Alofiana Khan-Pereira",
+                            "price": 700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chanel Harris-Tavita",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Charnze Nicoll-Klokstad",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Dallin Watene-Zelezniak",
+                            "price": 650
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Demitric Vaimauga",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Eddie Ieremia-Toeava",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Erin Clark",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jackson Ford",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jacob Laban",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "James Fisher-Harris",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurt Capewell",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Leka Halasima",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Luke Hanson",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Marata Niukore",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Mitchell Barnett",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Morgan Gannon",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Roger Tuivasa-Sheck",
+                            "price": 1100
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Samuel Healey",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Taine Tuaupiki",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tanah Boyd",
+                            "price": 2200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Wayde Egan",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Adam Christensen",
+                            "price": 6000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "AJ Brimson",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Arama Hau",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Beau Fermor",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Chris Randall",
+                            "price": 6600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Cooper Bai",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jayden Campbell",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jaylan De Groot",
+                            "price": 1400
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jensen Taumoepeau",
+                            "price": 1700
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Jojo Fifita",
+                            "price": 1600
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Josh Patston",
+                            "price": 2500
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Keano Kini",
+                            "price": 2000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Klese Haas",
+                            "price": 3300
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Kurtis Morrin",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Lachlan Ilias",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Moeaki Fotuaika",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Oliver Pascoe",
+                            "price": 8000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Phillip Sami",
+                            "price": 1000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sam Verrills",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Sialetili Faeamani",
+                            "price": 1200
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Tino Fa'asuamaleaui",
+                            "price": 4000
+                        },
+                        {
+                            "name": "Yes",
+                            "description": "Zane Harrison",
+                            "price": 2500
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
