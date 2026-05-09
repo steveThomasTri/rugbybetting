@@ -39,6 +39,18 @@ def bball():
 
     return render_template("basketball.html", players=players)
 
+@app.route("/player/delete/<id>")
+def deleted(id):
+
+    db = get_db(DB)
+
+    db.execute("DELETE FROM Transactions WHERE id = ?", (id,))
+
+    db.commit()
+
+    return redirect(url_for("transactions"))
+
+
 @app.route("/player/<int:id>")
 def player(id):
     db = get_db()
